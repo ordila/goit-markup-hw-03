@@ -203,7 +203,7 @@ MAIN PAGE START
 .features {
   padding: 120px 0;
 }
-.featuresDescription {
+.features_description {
   font-family: "Roboto";
 
   font-size: 16px;
@@ -233,7 +233,7 @@ MAIN PAGE START
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.titleWorks {
+.title_works {
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-weight: 700;
@@ -264,7 +264,7 @@ MAIN PAGE START
 .list_team {
   display: flex;
 }
-.titleTeam {
+.title_team {
   font-family: "Roboto";
   line-height: 1.11;
   font-weight: 700;
@@ -279,12 +279,15 @@ MAIN PAGE START
 .workers {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .workers:not(:last-child) {
   margin-right: 24px;
 }
-
-.titleWorkers {
+.container_team {
+  padding: 32px 16px;
+}
+.title_workers {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -292,15 +295,14 @@ MAIN PAGE START
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-align: center;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
-.descriptionWorkers {
+.description_workers {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--slate);
   text-align: center;
-  margin-bottom: 32px;
 }
 /*MAIN PAGE END */
 /* SECOND PAGE START*/
@@ -335,7 +337,7 @@ MAIN PAGE START
 .button_portfolio_li:not(:first-child) {
   margin-left: 24px;
 }
-.featuresSubtitle {
+.features_subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -343,7 +345,7 @@ MAIN PAGE START
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
-.titlePhoto {
+.title_photo {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
