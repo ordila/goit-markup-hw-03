@@ -222,6 +222,19 @@ MAIN PAGE START
 .features_item:not(:last-child) {
   margin-right: 24px;
 }
+.features_title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .titleWorks {
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -293,9 +306,7 @@ MAIN PAGE START
 }
 /*MAIN PAGE END */
 /* SECOND PAGE START*/
-.main_section {
-  padding: 96px 0 120px 0;
-}
+
 .buttons_filtr {
   display: flex;
   justify-content: center;
