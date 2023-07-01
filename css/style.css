@@ -182,7 +182,7 @@ MAIN PAGE START
 .btn_ord:focus {
   background: var(--ocean);
 }
-.main_section {
+.effective_section {
   background: var(--navyblue);
   font-family: "Roboto";
   font-weight: 700;
@@ -307,6 +307,9 @@ MAIN PAGE START
 }
 /*MAIN PAGE END */
 /* SECOND PAGE START*/
+.main_section {
+  padding: 96px 0 120px;
+}
 
 .buttons_filtr {
   display: flex;
