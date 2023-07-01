@@ -184,7 +184,6 @@ MAIN PAGE START
 .main_section {
   background: var(--navyblue);
   font-family: "Roboto";
-
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -229,7 +228,6 @@ MAIN PAGE START
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
